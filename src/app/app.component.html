@@ -1,0 +1,10 @@
+
+<span>link one</span>
+
+    <div>{{selectedLink}}</div>
+
+    <div>
+       <span (click)='clickeMe(item)' *ngFor="let item of myItems"> 
+        {{item.name}} 
+       </span>
+    </div>
